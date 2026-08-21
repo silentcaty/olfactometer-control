@@ -1,6 +1,6 @@
-# 嗅觉仪Python控制框架
+# 嗅觉仪 MATLAB / Python 控制框架
 
-本项目通过Mac的USB虚拟串口控制12通道嗅觉仪。当前仪器已经实测确认：
+本项目通过USB虚拟串口控制12通道嗅觉仪，支持macOS和Windows。当前仪器已经实测确认：
 
 - USB串口设备：`VID:PID=1A86:55D3`
 - 波特率：`115200`
@@ -15,8 +15,10 @@
 
 - `olfactometer.py`：可复用的底层控制类。
 - `run_experiment.py`：实验序列示例，主要修改这个文件顶部的配置区。
-- `olfactometer_control.py`：前期硬件诊断和单通道测试工具。
+- `runOlfactometerMatlab.m`：MATLAB控制和实验序列示例。
+- `WINDOWS_SETUP.md`：Windows迁移与首次连接指南。
 - `requirements.txt`：Python依赖。
+- `控制通道指令集.png`：设备命令表原图。
 
 ## 1. 准备Python环境
 
