@@ -1,0 +1,20 @@
+# macOS and editor files
+.DS_Store
+*.sw?
+*.asv
+
+# Python environment and caches
+.venv/
+__pycache__/
+*.py[cod]
+
+# Generated logs and hardware-test output
+logs/*.csv
+ch*_115200_binary_test.csv
+
+# Historical diagnostic and legacy examples kept locally only
+SmellTest.m
+testAsciiCommand.m
+testOlfactometer.m
+untitled.m
+olfactometer_control.py
